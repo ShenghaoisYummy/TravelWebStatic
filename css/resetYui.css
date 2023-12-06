@@ -118,18 +118,6 @@ legend {
     display: none
 }
 
-.tac {
-    text-align: center;
-}
-
-.center{
-    margin: 0 auto;
-}
-
-.db{
-    display: block;
-}
-
-.dib{
-    display: inline-block;
+a {
+    text-decoration: none
 }
