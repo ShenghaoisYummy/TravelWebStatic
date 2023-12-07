@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Nunito-VariableFont_wght";
+    src: url(../fonts/Nunito-Bold.ttf);
+}
+body{
+    font-family: "Nunito-VariableFont_wght"; 
+}
+
 .center-wrap{
     width: 1152px;
     margin: 0 auto;
@@ -50,6 +58,7 @@ body{
     height: 12px;
     top:50%;
     margin-top: -4px;
+    transition: transform .2s ease 0s    ;
 }
 
 .side-head .topbar .center-wrap .shortcut-list > ul > li.have-menu:hover .arrow{
@@ -72,7 +81,7 @@ body{
     width: 6px;
     height: 6px;
     left: 3px;
-    top: -2px;
+    top: -1.5px;
     transform: rotate(45deg);
 
 }
