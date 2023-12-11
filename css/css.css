@@ -372,7 +372,7 @@ span {
     width: 264px;
     height: 184px;
     margin-right: 32px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 
 }
 
@@ -386,8 +386,10 @@ span {
 
     background: #FFFFFF;
     color: #1C1F21;
+    height:86px;
     font-size: 14px;
     line-height: 22px;
+    margin-bottom: 32px;
 
 }
 
