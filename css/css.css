@@ -1,21 +1,21 @@
-.main-menu{
+.main-menu {
     width: 1366px;
     height: 40px;
     background-color: #20BD9A;
 }
 
-.main-menu .center-wrap .main-list ul li{
+.main-menu .center-wrap .main-list ul li {
     float: left;
     margin-right: 18px;
     line-height: 40px;
 }
 
-.main-menu .center-wrap .main-list ul li a{
+.main-menu .center-wrap .main-list ul li a {
     font-size: 18px;
     color: white;
 }
 
-.main-menu .center-wrap .main-list > ul > li.have-menu{
+.main-menu .center-wrap .main-list>ul>li.have-menu {
     padding-right: 16px;
 }
 
@@ -24,99 +24,107 @@
 
     height: 78px;
 }
+
 .searchbar .center-wrap {
     position: relative;
 
     height: 78px;
 }
 
-.searchbar .center-wrap h1{
+.searchbar .center-wrap h1 {
     position: absolute;
     font-size: 24px;
-    float:left;
+    float: left;
     line-height: 78px;
     color: #20BD9A;
-    
+
 }
 
-.searchbar .center-wrap .search-container{
-    position: absolute; /* or absolute */
+.searchbar .center-wrap .search-container {
+    position: absolute;
+    /* or absolute */
 
     float: left;
-    width:402px;
-    height:28px;
+    width: 402px;
+    height: 28px;
     margin-left: 140px;
     margin-top: 25px;
     border: #20BD9A 1px solid;
     border-radius: 4px 0px 0px 4px;
 
 }
-.searchbar .center-wrap .search-container .searchbox{
 
-    position: absolute; /* or absolute */
+.searchbar .center-wrap .search-container .searchbox {
+
+    position: absolute;
+    /* or absolute */
     float: left;
-    width:300px;
-    height:28px;
+    width: 300px;
+    height: 28px;
     left: 50%;
     margin-left: -150px;
-    border:none;
+    border: none;
 }
 
-.searchbar .center-wrap .search-container .searchbox input{
+.searchbar .center-wrap .search-container .searchbox input {
 
-    width:300px;
-    height:28px;
+    width: 300px;
+    height: 28px;
     font-size: small;
-    border:none;
+    border: none;
     outline: none;
 }
 
-.searchbar .center-wrap .searchbtn{
-    float:left;
-    height:30px;
+.searchbar .center-wrap .searchbtn {
+    float: left;
+    height: 30px;
     width: 32px;
     text-align: center;
 
-    background-color:#20BD9A ;
+    background-color: #20BD9A;
     margin-top: -1px;
     margin-left: 403px;
     border-radius: 0px 4px 4px 0px;
 
 }
-.searchbar .center-wrap .searchbtn a{
+
+.searchbar .center-wrap .searchbtn a {
     color: white;
     line-height: 28px;
     color: white;
 
 }
 
-.nav-r{
-    float:right;
+.nav-r {
+    float: right;
 }
-.nav-r a,span{
+
+.nav-r a,
+span {
     margin-right: 7px;
     font-size: small;
 }
 
-.shortcut-list .have-menu .topmenu-dest{
+.shortcut-list .have-menu .topmenu-dest {
 
-    display:none;
+    display: none;
     padding-left: 10px;
 
 }
-.shortcut-list .have-menu .topmenu-dest ul{
 
-    display:none;
+.shortcut-list .have-menu .topmenu-dest ul {
+
+    display: none;
 
 }
 
-.shortcut-list .have-menu:hover .topmenu-dest ul{
+.shortcut-list .have-menu:hover .topmenu-dest ul {
     font-size: 12px;
     line-height: 18px;
-    display:block;
+    display: block;
 }
 
-.shortcut-list .have-menu:hover .topmenu-dest ul li{
+.shortcut-list .have-menu:hover .topmenu-dest ul li {
 
     line-height: 18px;
     display: block;
@@ -126,7 +134,7 @@
 
 }
 
-.shortcut-list .have-menu:hover .topmenu-dest ul a{
+.shortcut-list .have-menu:hover .topmenu-dest ul a {
     font-size: 12px;
     color: #1C1F21;
 
@@ -139,7 +147,7 @@
     height: 168px;
     background: #FFFFFF;
     box-shadow: 0 4px 8px 0;
-    display:block;
+    display: block;
     z-index: 9999;
 
 }
@@ -151,138 +159,138 @@
     vertical-align: middle;
 }
 
-.banner{
+.banner {
     position: relative;
 }
 
-.banner .center-wrap .banner-nav{
-    position:absolute;
-    top:0;
-    left:0;
+.banner .center-wrap .banner-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 296px;
     height: 100%;
-    left:50%;
-    margin-left:-576px;
+    left: 50%;
+    margin-left: -576px;
 }
 
-.banner .center-wrap .banner-nav > ul{
-    height:100%;
-  
+.banner .center-wrap .banner-nav>ul {
+    height: 100%;
+
 
 }
 
-.banner .center-wrap .banner-nav > ul >li {
+.banner .center-wrap .banner-nav>ul>li {
     position: relative;
-    height:16.6666667%;
+    height: 16.6666667%;
     opacity: 0.5;
     background: #000000;
-    border:#FFFFFF .5px solid;
+    border: #FFFFFF .5px solid;
     box-sizing: border-box;
-    display:block;
+    display: block;
 }
 
-.banner .center-wrap .banner-nav > ul >li:hover {
+.banner .center-wrap .banner-nav>ul>li:hover {
 
     opacity: 0.70;
 
 }
 
-.banner .center-wrap .banner-nav > ul >li dl {
-    height:48px;
-    position:absolute;
-    top:50%;
+.banner .center-wrap .banner-nav>ul>li dl {
+    height: 48px;
+    position: absolute;
+    top: 50%;
     margin-top: -32px;
-    margin-left:42px;
-    margin-right:62px;
+    margin-left: 42px;
+    margin-right: 62px;
 }
 
-.banner .center-wrap .banner-nav > ul >li dl dt {
+.banner .center-wrap .banner-nav>ul>li dl dt {
     font-size: 18px;
     color: #FFFFFF;
 }
 
-.banner .center-wrap .banner-nav > ul >li dl dd {
+.banner .center-wrap .banner-nav>ul>li dl dd {
     font-size: 14px;
     color: #FFFFFF;
 
 }
 
-.banner .nav-arrow-left{
-  position: absolute;
-  width:32px;
-  height:44px;
-  top:50%;
-  margin-top: -22px;
-  margin-left: 65px;
-  opacity: 0.5;
-  background: #000000;
+.banner .nav-arrow-left {
+    position: absolute;
+    width: 32px;
+    height: 44px;
+    top: 50%;
+    margin-top: -22px;
+    margin-left: 65px;
+    opacity: 0.5;
+    background: #000000;
 
 }
 
-.banner .nav-arrow-left a{
+.banner .nav-arrow-left a {
     position: absolute;
-    top:50%;
+    top: 50%;
     margin-top: -14px;
     font-size: 26px;
-    color:white;
-  
-  }
+    color: white;
 
-.banner .nav-arrow-right{
+}
+
+.banner .nav-arrow-right {
     position: absolute;
-    width:32px;
-    height:44px;
+    width: 32px;
+    height: 44px;
     right: -1px;
-    top:50%;
+    top: 50%;
     margin-top: -22px;
     margin-right: 66px;
     opacity: 0.5;
     background: #000000;
-  
-  }
 
-  .banner .nav-arrow-right a{
+}
+
+.banner .nav-arrow-right a {
     position: absolute;
-    top:50%;
+    top: 50%;
     margin-top: -14px;
     font-size: 26px;
     padding-left: 3px;
-    color:white;
-  
-  }
+    color: white;
 
-  .banner .center-wrap .banner-nav > ul >li span{
-    position:absolute;
-    width:24px;
-    height:24px;
+}
+
+.banner .center-wrap .banner-nav>ul>li span {
+    position: absolute;
+    width: 24px;
+    height: 24px;
     font-size: 24px;
-    color:#00ffc8;
-    top:50%;
+    color: #00ffc8;
+    top: 50%;
     margin-top: -14px;
     margin-left: 12px;
 }
 
-.banner .center-wrap .banner-nav > ul >li em{
+.banner .center-wrap .banner-nav>ul>li em {
 
-    position:absolute;
-    width:16px;
-    height:16px;
-    right:-1px;
-    margin-right:8px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -1px;
+    margin-right: 8px;
     font-size: 16px;
-    color:white;
-    top:50%;
+    color: white;
+    top: 50%;
     margin-top: -8px;
     margin-left: 12px;
 }
 
-.banner .center-wrap .menu{
+.banner .center-wrap .menu {
 
-    position:absolute;
-    top:0;
-    left:403px;
-    width:356px;
-    height:100%;
+    position: absolute;
+    top: 0;
+    left: 403px;
+    width: 356px;
+    height: 100%;
     opacity: 0.5;
     padding: 10px;
     background: #000000;
@@ -291,25 +299,100 @@
 
 }
 
-.banner .center-wrap .menu .menu-split dl{
+.banner .center-wrap .menu .menu-split dl {
 
-    height:33.3333333;
-    margin-bottom: 20px;;
+    height: 33.3333333;
+    margin-bottom: 20px;
+    ;
     box-sizing: border-box;
-    display:block;
+    display: block;
 }
 
-.banner .center-wrap .menu .menu-split dl dt{
+.banner .center-wrap .menu .menu-split dl dt {
 
-    font-size:18px;
-    color:white;
-
-}
-
-.banner .center-wrap .menu .menu-split dl dd a{
-
-    font-size:14px;
-    color:white;
+    font-size: 18px;
+    color: white;
 
 }
 
+.banner .center-wrap .menu .menu-split dl dd a {
+
+    font-size: 14px;
+    color: white;
+
+}
+
+.hot-ads ul li {
+    float: left;
+    width: 264px;
+    height: 110px;
+    margin-right: 32px;
+}
+
+.hot-ads ul li:last-child {
+    width: 264px;
+    height: 110px;
+    margin-right: 0px;
+}
+
+.hot-ads {
+    height: 110px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.new-specials {
+    background: #F7F7F7;
+    height: 738px;
+    padding-top: 40px;
+    padding-bottom: 62px;
+
+}
+
+.new-specials h2 {
+    float: left;
+    font-size: 36px;
+    color: #1C1F21;
+    text-align: justify;
+    line-height: 54px;
+}
+
+.new-specials em {
+    float: left;
+    margin-top: 30px;
+    margin-left: 12px;
+    font-size: 12px;
+
+}
+
+.new-specials ul li {
+    float: left;
+
+    width: 264px;
+    height: 184px;
+    margin-right: 32px;
+    margin-bottom: 100px;
+
+}
+
+.new-specials ul li:nth-child(4n) {
+
+
+    margin-right: 0
+}
+
+.new-specials li .wordbox {
+
+    background: #FFFFFF;
+    color: #1C1F21;
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+.new-specials li:hover .wordbox,
+.picbox {
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+}
