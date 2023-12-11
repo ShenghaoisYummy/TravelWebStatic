@@ -75,10 +75,71 @@
     float:left;
     height:30px;
     width: 32px;
+    text-align: center;
+
     background-color:#20BD9A ;
     margin-top: -1px;
     margin-left: 403px;
     border-radius: 0px 4px 4px 0px;
 
 }
+.searchbar .center-wrap .searchbtn a{
+    color: white;
+    line-height: 28px;
+    color: white;
 
+}
+
+.nav-r{
+    float:right;
+}
+.nav-r a,span{
+    margin-right: 7px;
+    font-size: small;
+}
+
+.shortcut-list .have-menu .topmenu-dest{
+
+    display:none;
+    padding-left: 10px;
+
+}
+.shortcut-list .have-menu .topmenu-dest ul{
+
+    display:none;
+
+}
+
+.shortcut-list .have-menu:hover .topmenu-dest ul{
+    font-size: 12px;
+    line-height: 18px;
+    display:block;
+}
+
+.shortcut-list .have-menu:hover .topmenu-dest ul li{
+
+    line-height: 18px;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+
+}
+
+.shortcut-list .have-menu:hover .topmenu-dest ul a{
+    font-size: 12px;
+    color: #1C1F21;
+
+}
+
+.shortcut-list li.have-menu:hover .topmenu-dest {
+
+    position: absolute;
+    width: 75px;
+    height: 168px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0;
+    display:block;
+    z-index: 9999;
+
+}
