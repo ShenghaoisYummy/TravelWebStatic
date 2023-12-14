@@ -348,11 +348,7 @@ span {
 
 }
 
-/* .new-specials .hd {
-    margin-bottom: 32px;
 
-
-} */
 
 .title {
 
@@ -422,7 +418,7 @@ span {
 
 }
 
-.self-tour nav ul li {
+.content-part nav ul li {
 
     float: right;
     margin-right: 10px;
@@ -431,14 +427,14 @@ span {
 
 }
 
-.self-tour nav ul li:hover a {
+.content-part nav ul li:hover a {
 
     color:#20BD9A;
     border-bottom: #20BD9A solid 3px;
 
 }
 
-.self-tour nav ul li a {
+.content-part nav ul li a {
 
     font-size: 14px;
     color: rgba(0, 0, 0, 0.85);
@@ -533,7 +529,7 @@ span {
 
 }
 
-.self-tour .more-grid {
+.content-part .more-grid {
 
     position: relative;
     width: 264px;
@@ -546,7 +542,7 @@ span {
     
 }
 
-.self-tour .more-grid p {
+.content-part .more-grid p {
 
     font-size: 14px;
     top:46px;
@@ -555,7 +551,7 @@ span {
     
 }
 
-.self-tour .more-grid span {
+.content-part .more-grid span {
 
     position: absolute;
     font-size: 48px;
@@ -567,17 +563,16 @@ span {
     line-height: 48px;
 }
 
-.self-tour .more-grid ul {
+.content-part .more-grid ul {
 
     float: left;
     margin-top: 113px;
     margin-left: 13%;
-
-
 }
 
-.self-tour .more-grid ul li {
+.content-part .more-grid ul li {
 
+    float: left;
     padding-right: 10px;    
     margin-left: 10px;
     font-size: 14px;
@@ -587,12 +582,104 @@ span {
 
 }
 
-.self-tour .more-grid ul li:last-child {
+.content-part .more-grid ul li:last-child {
 
     margin-right: 0px;
     border-right: #FFFFFF solid 0px;
 
 
+}
+
+.local-fun {
+
+    height:586px;
+
+}
+.local-fun .content .col {
+
+    float:left;
+    height: 420px;
+    width: 364px;
+    margin-right: 30px;
+    box-sizing: border-box;
+
+}
+
+.local-fun .content .col:last-child {
+
+    margin-right: 0px;
+
+}
+
+.local-fun .localfun-grid {
+
+    width:364px;
+    height:120px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+}
+
+.local-fun .localfun-grid .picbox{
+
+    float:left;
+    width:120px;
+    height:120px;
+}
+
+.local-fun .localfun-grid .wordbox{
+
+    float:left;
+    padding:27px 18px 27px 18px;
+
+    width:244px;
+    height:120px;
+    box-sizing: border-box;
+
+}
+
+.local-fun .bigpicbox {
+    
+    position: relative;
+    width:364px;
+    height:272px;
+    margin-bottom: 32px;
+}
+
+.local-fun .bigpicbox .info {
+ 
+    position: absolute;
+    left: 0px;
+    top: 166px;
+    width: 364px;
+    height: 104px;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    background: #1C1F21;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.local-fun .bigpicbox .info .price{
+    
+    float: right;
+    font-size: 14px;
+    line-height: 22px;
+
+
+}
+
+.local-fun .bigpicbox .info .price strong{
+ 
+    color: #36DFBA;
+}
+
+.local-fun .more-grid {
+    
+    width:364px;
+    height:272px;
+    background-image: linear-gradient(180deg, #FF6374 1%, #FF7368 98%);
+    box-shadow: 0 4px 8px 0;    
 }
 
 
