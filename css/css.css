@@ -400,6 +400,8 @@ span {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 32px;
+    padding:22px 14px 22px 14px;
+    box-sizing: border-box;
 
 }
 
@@ -629,8 +631,6 @@ span {
 .local-fun .localfun-grid .wordbox{
 
     float:left;
-    padding:27px 18px 27px 18px;
-
     width:244px;
     height:120px;
     box-sizing: border-box;
