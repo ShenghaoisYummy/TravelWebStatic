@@ -358,7 +358,6 @@ span {
     text-align: justify;
     line-height: 54px;
     padding-top: 40px;
-
     margin-bottom: 32px;
 
 }
@@ -397,17 +396,24 @@ span {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
     color: #1C1F21;
     height: 86px;
+    width: 264px;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 32px;
-    padding:22px 14px 22px 14px;
+    padding: 22px 14px 22px 14px;
     box-sizing: border-box;
+
+}
+
+.picbox {
+
+    width: 264px;
+    height: 184px;
 
 }
 
 .wordbox,
 .picbox {
-
     position: relative;
     background: #FFFFFF;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
@@ -431,7 +437,7 @@ span {
 
 .content-part nav ul li:hover a {
 
-    color:#20BD9A;
+    color: #20BD9A;
     border-bottom: #20BD9A solid 3px;
 
 }
@@ -458,8 +464,8 @@ span {
 
 .self-tour .pro-grid {
 
-    width:264px;
-    height:270px;
+    width: 264px;
+    height: 270px;
     margin-right: 32px;
     margin-bottom: 32px;
 
@@ -472,7 +478,8 @@ span {
 
 }
 
-.self-tour .self-tourgrid ul li:nth-child(3), li:nth-child(7){
+.self-tour .self-tourgrid ul li:nth-child(3),
+li:nth-child(7) {
 
     margin-right: 0px;
 
@@ -497,7 +504,7 @@ span {
 
     position: absolute;
     left: 0px;
-    top:50%;
+    top: 50%;
     margin-top: -20px;
     width: 74px;
     height: 40px;
@@ -516,7 +523,7 @@ span {
     width: 560px;
     height: 103px;
     opacity: 0.55;
-    top:167px;
+    top: 167px;
     background: #1C1F21;
 
 }
@@ -539,28 +546,29 @@ span {
     background-image: linear-gradient(180deg, #34E3BC 0%, #15AF7A 98%);
     box-shadow: 0 1px 1px 0;
     padding-top: 46px;
-    box-sizing: border-box;;
+    box-sizing: border-box;
+    ;
 
-    
+
 }
 
 .content-part .more-grid p {
 
     font-size: 14px;
-    top:46px;
+    top: 46px;
     text-align: center;
     color: #FFFFFF;
-    
+
 }
 
 .content-part .more-grid span {
 
     position: absolute;
     font-size: 48px;
-    top:50%;
+    top: 50%;
     margin-top: -25px;
     color: #FFFFFF;
-    left:50%;
+    left: 50%;
     margin-left: -24px;
     line-height: 48px;
 }
@@ -575,12 +583,12 @@ span {
 .content-part .more-grid ul li {
 
     float: left;
-    padding-right: 10px;    
+    padding-right: 10px;
     margin-left: 10px;
     font-size: 14px;
     color: #FFFFFF;
     border-right: #FFFFFF solid 2px;
-   
+
 
 }
 
@@ -594,12 +602,13 @@ span {
 
 .local-fun {
 
-    height:586px;
+    height: 586px;
 
 }
+
 .local-fun .content .col {
 
-    float:left;
+    float: left;
     height: 420px;
     width: 364px;
     margin-right: 30px;
@@ -615,38 +624,39 @@ span {
 
 .local-fun .localfun-grid {
 
-    width:364px;
-    height:120px;
+    width: 364px;
+    height: 120px;
     margin-bottom: 32px;
     box-sizing: border-box;
 }
 
-.local-fun .localfun-grid .picbox{
+.local-fun .localfun-grid .picbox {
 
-    float:left;
-    width:120px;
-    height:120px;
+    float: left;
+    width: 120px;
+    height: 120px;
 }
 
-.local-fun .localfun-grid .wordbox{
+.local-fun .localfun-grid .wordbox {
 
-    float:left;
-    width:244px;
-    height:120px;
+    float: left;
+    width: 244px;
+    height: 120px;
     box-sizing: border-box;
 
 }
 
 .local-fun .bigpicbox {
-    
+
     position: relative;
-    width:364px;
-    height:272px;
+    width: 364px;
+    height: 272px;
     margin-bottom: 32px;
+
 }
 
 .local-fun .bigpicbox .info {
- 
+
     position: absolute;
     left: 0px;
     top: 166px;
@@ -658,29 +668,86 @@ span {
     background: #1C1F21;
     padding: 10px;
     box-sizing: border-box;
+
 }
 
-.local-fun .bigpicbox .info .price{
-    
+.local-fun .bigpicbox .info .price {
+
     float: right;
     font-size: 14px;
     line-height: 22px;
 
-
 }
 
-.local-fun .bigpicbox .info .price strong{
- 
+.local-fun .bigpicbox .info .price strong {
+
     color: #36DFBA;
 }
 
 .local-fun .more-grid {
-    
-    width:364px;
-    height:272px;
+
+    width: 364px;
+    height: 272px;
     background-image: linear-gradient(180deg, #FF6374 1%, #FF7368 98%);
-    box-shadow: 0 4px 8px 0;    
+    box-shadow: 0 4px 8px 0;
+
+}
+
+.local-experiences {
+
+    width: 1366px;
+    height: 586px;
+
+}
+
+.local-experiences .hd {
+
+    padding-left: 416px
+
+}
+
+
+.local-experiences .content li {
+
+    position: relative;
+    float: left;
+    top: 10%;
+
+}
+
+.local-experiences .content li {
+
+    margin-right: 32px;
+
+}
+
+.local-experiences .content li:last-child {
+
+    margin-right: 0;
+
+}
+
+.local-experiences .content .proname {
+
+    height: 40px;
+
+}
+
+.local-experiences .content span {
+
+    font-size: 10px;
+
+}
+
+.local-experiences .content .score {
+
+    color: orange;
 }
 
 
 
+.local-experiences .wordbox {
+
+    padding: 12px;
+
+}
