@@ -405,6 +405,12 @@ span {
 
 }
 
+.wordbox a {
+
+    color: #1C1F21;
+    font-size: 14px;
+}
+
 .picbox {
 
     width: 264px;
@@ -426,7 +432,7 @@ span {
 
 }
 
-.content-part nav ul li {
+.common-style nav ul li {
 
     float: right;
     margin-right: 10px;
@@ -435,14 +441,14 @@ span {
 
 }
 
-.content-part nav ul li:hover a {
+.common-style nav ul li:hover a {
 
     color: #20BD9A;
     border-bottom: #20BD9A solid 3px;
 
 }
 
-.content-part nav ul li a {
+.common-style nav ul li a {
 
     font-size: 14px;
     color: rgba(0, 0, 0, 0.85);
@@ -451,7 +457,7 @@ span {
 
 }
 
-.self-tour .big-grid {
+.common-style .big-grid {
 
     position: relative;
     width: 560px;
@@ -462,7 +468,7 @@ span {
 
 }
 
-.self-tour .pro-grid {
+.common-style .pro-grid {
 
     width: 264px;
     height: 270px;
@@ -472,20 +478,20 @@ span {
 
 }
 
-.self-tour .self-tourgrid ul li {
+.common-style ul li {
 
     float: left;
 
 }
 
-.self-tour .self-tourgrid ul li:nth-child(3),
+.common-style  ul li:nth-child(3),
 li:nth-child(7) {
 
     margin-right: 0px;
 
 }
 
-.self-tour .picbox .tag {
+.common-style .picbox .tag {
 
     position: absolute;
     top: 144px;
@@ -500,7 +506,7 @@ li:nth-child(7) {
 
 }
 
-.self-tour .big-grid .tag {
+.common-style .big-grid .tag {
 
     position: absolute;
     left: 0px;
@@ -517,7 +523,7 @@ li:nth-child(7) {
 
 }
 
-.self-tour .big-grid .info {
+.common-style .big-grid .info {
 
     position: absolute;
     width: 560px;
@@ -528,7 +534,7 @@ li:nth-child(7) {
 
 }
 
-.self-tour .big-grid .info div {
+.common-style .big-grid .info div {
 
     position: absolute;
     padding: 26px;
@@ -538,7 +544,7 @@ li:nth-child(7) {
 
 }
 
-.content-part .more-grid {
+.common-style .more-grid {
 
     position: relative;
     width: 264px;
@@ -552,7 +558,7 @@ li:nth-child(7) {
 
 }
 
-.content-part .more-grid p {
+.common-style .more-grid p {
 
     font-size: 14px;
     top: 46px;
@@ -561,7 +567,7 @@ li:nth-child(7) {
 
 }
 
-.content-part .more-grid span {
+.common-style .more-grid span {
 
     position: absolute;
     font-size: 48px;
@@ -573,14 +579,14 @@ li:nth-child(7) {
     line-height: 48px;
 }
 
-.content-part .more-grid ul {
+.common-style .more-grid ul {
 
     float: left;
     margin-top: 113px;
     margin-left: 13%;
 }
 
-.content-part .more-grid ul li {
+.common-style .more-grid ul li {
 
     float: left;
     padding-right: 10px;
@@ -592,7 +598,7 @@ li:nth-child(7) {
 
 }
 
-.content-part .more-grid ul li:last-child {
+.common-style .more-grid ul li:last-child {
 
     margin-right: 0px;
     border-right: #FFFFFF solid 0px;
@@ -603,6 +609,7 @@ li:nth-child(7) {
 .local-fun {
 
     height: 586px;
+    background-color: #F7F7F7;
 
 }
 
@@ -696,7 +703,7 @@ li:nth-child(7) {
 .local-experiences {
 
     width: 1366px;
-    height: 586px;
+    height: 456px;
 
 }
 
@@ -741,7 +748,7 @@ li:nth-child(7) {
 
 .local-experiences .content .score {
 
-    color: orange;
+    color: #FA6400;
 }
 
 
@@ -749,5 +756,49 @@ li:nth-child(7) {
 .local-experiences .wordbox {
 
     padding: 12px;
+
+}
+
+.deep-tour {
+
+    height: 738px;
+    background-color:#F7F7F7;
+
+}
+
+.group-tour {
+
+    height: 738px;
+
+}
+
+.common-style .mask {
+
+    position: absolute;
+
+}
+
+.common-style .circle {
+
+    position: absolute;
+
+    
+}
+
+.common-style .word {
+
+    position: absolute;
+    
+}
+
+.deep-tour .more-grid {
+
+    background-image: linear-gradient(180deg, #BD5EE8 0%, #832ABB 98%);
+}
+
+.group-tour .more-grid {
+
+    background-image: linear-gradient(180deg, #41D8E9 0%, #3685EA 98%);
+
 
 }
