@@ -901,13 +901,13 @@ li:nth-child(7) {
 .carousel {
 
     width:600%;
-    overflow: hidden;
 }
 
 .carousel ul li {
 
     float: left;
     width:16.6667%;
+    overflow: hidden;
 
 }
 
@@ -921,6 +921,10 @@ li:nth-child(7) {
     z-index: 9999;
     cursor: pointer;
 
+}
+#carousel_list{
+    width:100%;
+    overflow: hidden;
 }
 
 #points ul li.current {
@@ -944,5 +948,20 @@ li:nth-child(7) {
     background-color: #20BD9A;
     z-index: 9998;
     transition: all .5s ease .1s;
+
+}
+
+#backtotop{
+
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    background-color: #20BD9A;
+    bottom: 80px;
+    right:10px;
+    text-align: center;
+    padding-top:8px;
+    box-sizing: border-box;
+    color: #000000;
 
 }

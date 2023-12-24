@@ -5,6 +5,8 @@ var points = document.getElementById('points');
 
 var circle_li = points.getElementsByTagName('li');
 
+var topbtn = document.getElementById('backtotop');
+
 var idx = 0;
 var lock = false;
 
@@ -111,3 +113,28 @@ points.onclick = function (e) {
 
 
 setInterval(right_btn_handler,2500);
+
+topbtn.onclick = function (){
+
+    var timer = setInterval(()=>{
+        document.documentElement.scrollTop -= 100;
+        if( document.documentElement.scrollTop < 10){
+            clearInterval(timer);
+        }
+    },20)
+
+}
+
+window.onscroll = function() {
+
+    if(document.documentElement.scrollTop < 10){
+        topbtn.style.display = 'none';
+    }
+    else{
+
+        topbtn.style.display = 'block';
+
+    }
+
+}
+
