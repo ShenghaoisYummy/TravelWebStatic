@@ -166,6 +166,7 @@ span {
 
 .banner {
     position: relative;
+    overflow: hidden;
 }
 
 .banner .center-wrap .banner-nav {
