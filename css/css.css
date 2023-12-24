@@ -301,6 +301,8 @@ span {
     padding: 10px;
     background: #000000;
     box-sizing: border-box;
+    z-index: 9999;
+    display: none;
 }
 
 
@@ -906,5 +908,41 @@ li:nth-child(7) {
 
     float: left;
     width:16.6667%;
+
+}
+
+#points {
+
+    width: 160px;
+    height: 20px;
+    position:absolute;
+    left: 50%;
+    bottom:10px;
+    z-index: 9999;
+    cursor: pointer;
+
+}
+
+#points ul li.current {
+
+    width: 30px;
+}
+
+#points ul li:last-child {
+
+    margin-right: 0px;
+
+}
+
+#points ul li {
+
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;;
+    border-radius: 20px;
+    background-color: #20BD9A;
+    z-index: 9998;
+    transition: all .5s ease .1s;
 
 }
