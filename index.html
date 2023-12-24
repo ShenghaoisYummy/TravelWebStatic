@@ -7,6 +7,8 @@
         content="Book travel deals across Australia and the world at Trip.com. With great deals on flights, hotels, car hire and more, we've got your entire journey covered.">
     <title>Self Guided Tour _ travel recommendation community</title>
     <meta name="keywods" content="Cheap Flights, Hotels, Train Tickets">
+    <script type="text/javascript" src="js/carousel.js" defer></script>
+
     <link rel="stylesheet" href="css/resetYui.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/css.css">
@@ -158,17 +160,39 @@
         </div>
     </header>
     <section class="banner">
-        <div class="nav-arrow-left">
-            <a href="" class="iconfont">&#xe64c;
-            </a>
+        <div class="carousel">
+            <ul id="carousel_list">
+                <li>
+                    <img src="images/banner.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner2.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner3.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner4.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner5.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner.jpg"/>
+                </li>
+            </ul>
+            
         </div>
-
-        <div class="nav-arrow-right">
-            <a href="" class="iconfont">&#xe64d;
-            </a>
-        </div>
-        <img alt="" src="images/banner.jpeg">
         <div class="center-wrap">
+            <div class="nav-arrow-left">
+                <a id="left_btn" href="javascript:void(0)" class="iconfont">&#xe64c;
+                </a>
+            </div>
+    
+            <div class="nav-arrow-right">
+                <a id="right_btn" href="javascript:" class="iconfont">&#xe64d;
+                </a>
+            </div>
             <nav class="banner-nav">
             <ul>
                 <li>
@@ -923,7 +947,7 @@
                 </dl>
                 <dl class="axph">
                     <dt>Reliable Support</dt>
-                    <dd>We track and monitor the purchases of Muyun travelers, provide prompt complaint resolution, and offer preemptive compensation in case of issues.</dd>
+                    <dd>We provide prompt complaint resolution, and offer preemptive compensation in case of issues.</dd>
                 </dl>
             </div>
         </div>
@@ -935,3 +959,5 @@
 </body>
 
 </html>
+
+
